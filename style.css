@@ -1,0 +1,240 @@
+html {
+    background-image:url(iamage/41943926_vector_seamless_sketchy.jpg);
+}
+
+logo {
+  display: block;
+  margin-left: 15%;
+  margin-top: 40px;
+  width: 542px;
+  height: 170px;
+  z-index: 35;
+}
+
+
+
+.border{
+    position: relative;
+    top:-5px;
+    left: -3px;
+    width: 100.5%;
+}
+
+#content {
+  margin: 0px;
+  padding: 0px; 
+  background-color:#e8ebdd ;
+  position: absolute;
+  left: 15%;
+  top: 240px;
+  width: 71%;
+  
+  
+  border: solid 2px #a29f96;
+  border-top: 0px
+}
+
+#recept {
+  position: relative;
+  float: left;
+  background-color: #5b4a43;
+  left: -28px;
+  top: 32px;
+  width: 70%;
+  height: auto;
+  box-shadow: 5px  5px 5px  #abb2aa ;
+}
+
+.ingredients {
+    float: left;
+    margin: 15px;
+    width: 260px;
+    padding: 2% 0px;
+    background-color: #cca355;    
+}
+
+.name {
+    margin: auto  ;
+    width: 240px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b4a43;
+    text-align: center;
+}
+
+.pichaconteiner {
+    margin: 15% auto;
+    width: 183px;
+    height: 183px;
+    background-color: #5b4a43;
+    border: solid 6px #af8c4a;
+    border-radius: 183px;
+}
+
+.picha {
+    display: block;
+    margin: 23% auto;    
+}
+
+#list {
+   margin:  ;
+    color: #5b4a43;
+    width: 240px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list {
+    font-size: 15px;
+    color: #5b4a43;
+    font-weight: bold;
+}
+
+.list ul{
+    margin-left: 4em;
+}
+
+
+ul {
+    list-style-type: none;
+    line-height: 180%;
+    padding: 0em
+}
+
+.P {
+    padding-top: 0.4em;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+.making {
+    margin: 20px;
+    color: white;
+    }
+
+#menu {
+    position: relative;
+    right: -28px;
+    top: 32px;
+    float: right;
+    width:27%;
+}
+
+.bordermenuup{    
+    height: 51px;
+    background-color: #c69e51;
+    box-shadow: 0px  5px 5px  #abb2aa ;
+    color: white;
+}
+
+.treugolnikMenu{
+    width: 0px;
+    height: 0px;
+    border: 13px solid transparent;
+    border-top: 13px solid #75583a;
+    border-left: 13px solid #75583a;
+    position: absolute;
+    top: 3.6em;
+    right: 0px;
+    z-index: 10;
+    
+}
+
+.menu {
+    color: #5b4a43;
+    margin: 1em 3em ;
+}
+
+.recepts {
+    border-bottom: solid 2px #c69e51;
+    padding-left: 1em;
+}
+
+.treygoliynik{
+    width: 0px;
+    height: 0px;
+    border: 13px solid transparent;
+    border-top: 13px solid #453833;
+    border-right: 13px solid #453833;
+    position: absolute;
+    bottom:-26px;
+    z-index: 10;
+}
+
+.fact {
+    width:64%;
+    margin:38em 2em 4em 2.2em;
+    color: #5b4a43;
+}
+
+fotter {
+    position: absolute;
+    background-color: #5b4a43;
+    width: 100.28%;
+    height: 154px;
+    top: 1440px;
+    left: -5px;
+    
+    
+}
+
+.borderbottom {
+  
+  position: absolute;
+  left: 0px;
+  top: -8px;
+  width: 100%;
+  height: 13px;
+  z-index: 5;
+}
+
+#this {
+    background-color: #c69e51;
+}
+a {
+    text-decoration: none;
+    color: #5b4a43;
+    display: block;
+    
+}
+
+a:hover {
+    
+    text-decoration:underline;
+}
+
+@media only screen and (max-device-width:480px){
+    
+    logo img {
+        width: 60%;
+        height: 60%;
+       
+    }
+    
+    #content {
+        top: 9%;
+    }
+    
+    .ingredients {
+        float: none;
+        width: 70%;
+        height: 70%;
+        margin: auto;
+    }
+    
+    #menu {
+        width: 30%;
+    }
+    
+    .menu {
+        margin: 1px 25px 1px 5px;
+            
+    }
+    
+    fotter {
+       top:2000px;
+    }
+}

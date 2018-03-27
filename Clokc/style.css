@@ -1,0 +1,57 @@
+body {
+    transform: rotate(180deg)
+}
+#circle {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    position: relative;
+}
+
+#seconds {
+ position: absolute;
+    width: 2px;
+    height: 150px;
+    left: 150px;
+    top: 130px;
+    background-color: white;
+    animation: sec 60s infinite steps(60);
+    transform-origin: 0 20px;
+}
+
+@keyframes sec {
+    100% { transform: rotate(360deg)}
+}
+
+#minets {
+    position: absolute;
+    width: 3px;
+    height: 130px;
+    left: 152px;
+    top: 131px;
+    background-color: white;
+    animation: min 1200s infinite steps(120);
+    transform-origin: 0 18px;
+}
+
+@keyframes min {
+    100% { transform: rotate(360deg)}
+}
+#haurs {
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    left: 149.5px;
+    top: 132px;
+    background-color: crimson;
+    animation: hau 72000s infinite steps(72000);
+    transform-origin: 0 16px;
+    
+}
+
+@keyframes hau {
+    100% { transform: rotate(360deg)}
+}

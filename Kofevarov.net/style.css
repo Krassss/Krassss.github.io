@@ -216,6 +216,7 @@ a:hover {
     
     #content {
         top: 9%;
+        margin-top: 40px;
     }
     
     .ingredients {
@@ -237,10 +238,6 @@ a:hover {
     
     fotter {
        top:2000px;
-    }
-    
-    #content {
-        margin-top: 20px;
     }
     
     .border{

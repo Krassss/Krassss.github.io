@@ -11,6 +11,10 @@ logo {
   z-index: 35;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
 
 .border{
@@ -137,7 +141,7 @@ ul {
     border-top: 13px solid #75583a;
     border-left: 13px solid #75583a;
     position: absolute;
-    top: 3.6em;
+    top: 57.7px;
     right: 0px;
     z-index: 10;
     
@@ -145,7 +149,7 @@ ul {
 
 .menu {
     color: #5b4a43;
-    margin: 1em 3em ;
+    margin: 1em 2.6em 1em 1em ;
 }
 
 .recepts {
@@ -166,7 +170,7 @@ ul {
 
 .fact {
     width:64%;
-    margin:38em 2em 4em 2.2em;
+    margin:38em 2em 8em 2.2em;
     color: #5b4a43;
 }
 

@@ -1,5 +1,17 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(github.jpg)
+}
+
 a{
-    display:block;
+    display:inline-block;
     margin: 50px;
-    font-size: 18px;
+    font-size: 20px;
+    color: lightcyan;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
 }

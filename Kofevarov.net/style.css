@@ -15,7 +15,7 @@ logo {
 body{
     margin: 0px;
     padding: 0px;
-    font-size:45px;
+    font-size:18px;
 }
 
 
@@ -31,8 +31,9 @@ body{
   padding: 0px; 
   background-color:#e8ebdd ;
   position: absolute;
+  left: 15%;
   top: 240px;
-  width: 100%;
+  width: 71%;
   
   
   border: solid 2px #a29f96;
@@ -40,33 +41,37 @@ body{
 }
 
 #recept {
-  padding-top: 1%;
-  margin-top: 1%;
   position: relative;
+  float: left;
   background-color: #5b4a43;
-  width: 100%;
+  left: -28px;
+  top: 32px;
+  width: 70%;
   height: auto;
+  box-shadow: 5px  5px 5px  #abb2aa ;
 }
 
 .ingredients {
-    margin: 25px 200px;
-    padding-bottom: 5%;
+    float: left;
+    margin: 15px;
+    width: 260px;
+    padding: 2% 0px;
     background-color: #cca355;    
 }
 
 .name {
     margin: auto  ;
-    width: 80%;
-    font-size: 2em;
+    width: 240px;
+    font-size: 24px;
     font-weight: bold;
     color: #5b4a43;
     text-align: center;
 }
 
 .pichaconteiner {
-    margin: 10% auto;
-    width: 283px;
-    height: 283px;
+    margin: 15% auto;
+    width: 183px;
+    height: 183px;
     background-color: #5b4a43;
     border: solid 6px #af8c4a;
     border-radius: 183px;
@@ -74,27 +79,26 @@ body{
 
 .picha {
     display: block;
-    margin: 33% auto;    
+    margin: 23% auto;    
 }
 
 #list {
-   margin:auto;
+   margin:  ;
     color: #5b4a43;
-    width: 80%;
-    font-size: 1em;
+    width: 240px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
-    
 }
 
 .list {
-    font-size: 1em;
+    font-size: 16px;
     color: #5b4a43;
     font-weight: bold;
 }
 
 .list ul{
-    margin-left: 6em;
+    margin-left: 4em;
 }
 
 
@@ -107,20 +111,17 @@ ul {
 .P {
     padding-top: 0.4em;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 24px;
     font-weight: bold;
     margin: 2%;
 }
 
 .making {
-    margin:5%;
-    padding-bottom: 6%;
+    margin: 20px;
     color: white;
-    font-size: 1.5em;
     }
 
 #menu {
-    display: none;
     position: relative;
     right: -28px;
     top: 32px;
@@ -135,6 +136,18 @@ ul {
     color: white;
 }
 
+.treugolnikMenu{
+    width: 0px;
+    height: 0px;
+    border: 13px solid transparent;
+    border-top: 13px solid #75583a;
+    border-left: 13px solid #75583a;
+    position: absolute;
+    top: 57.7px;
+    right: 0px;
+    z-index: 10;
+    
+}
 
 .menu {
     color: #5b4a43;
@@ -146,19 +159,29 @@ ul {
     padding-left: 1em;
 }
 
+.treygoliynik{
+    width: 0px;
+    height: 0px;
+    border: 13px solid transparent;
+    border-top: 13px solid #453833;
+    border-right: 13px solid #453833;
+    position: absolute;
+    bottom:-26px;
+    z-index: 10;
+}
 
 .fact {
-    width:89.8%;
-    margin:5%;
+    width:64%;
+    margin:38em 2em 8em 2.2em;
     color: #5b4a43;
 }
 
 fotter {
     position: absolute;
     background-color: #5b4a43;
-    width: 101%;
+    width: 100.28%;
     height: 154px;
-    top: 350%;
+    top: 1440px;
     left: -5px;
     
     
@@ -189,9 +212,54 @@ a:hover {
     text-decoration:underline;
 }
 
-<style>
-   @viewport {
-    width: device-width;
-    zoom: 1;
-    max-zoom: 2;
-   }
+@media only screen and (max-device-width:480px){
+    
+    logo img {
+        width: 60%;
+        height: 60%;
+       
+    }
+    
+    #content {
+        top: 9%;
+        margin-top: 40px;
+    }
+    
+    .ingredients {
+        float: none;
+        width: 70%;
+        height: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    #menu {
+        width: 30%;
+    }
+    
+    .menu {
+        margin: 1px 25px 1px 5px;
+            
+    }
+    
+    fotter {
+       top:150%;
+    }
+    
+    .border{
+    width: 100.7%;
+}
+    .treugolnikMenu{
+    top: 3.4em;
+    
+}
+    #recept{
+    margin-bottom: 50px;   
+    }
+   
+}
+ 
+@viewport{
+    width:device-width;
+    zoom:1;
+}

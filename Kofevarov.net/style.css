@@ -256,10 +256,17 @@ a:hover {
     #recept{
     margin-bottom: 50px;   
     }
+    
+    .making{
+        padding-left: 2.6em;
+    }
    
+    .fact{
+        width:22em
+    }
 }
  
 @viewport{
     width:device-width;
-    zoom:1;
+    zoom:4;
 }

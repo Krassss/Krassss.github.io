@@ -14,12 +14,12 @@ body {
 #seconds {
  position: absolute;
     width: 2px;
-    height: 150px;
+    height: 140px;
     left: 150px;
-    top: 130px;
+    top: 150px;
     background-color: white;
     animation: sec 60s infinite steps(60);
-    transform-origin: 0 20px;
+    transform-origin: 0 0px;
 }
 
 @keyframes sec {
@@ -29,12 +29,12 @@ body {
 #minets {
     position: absolute;
     width: 3px;
-    height: 130px;
-    left: 152px;
-    top: 131px;
+    height: 120px;
+    left: 150px;
+    top: 150px;
     background-color: white;
     animation: min 1200s infinite steps(120);
-    transform-origin: 0 18px;
+    transform-origin: 0 0px;
 }
 
 @keyframes min {
@@ -43,12 +43,12 @@ body {
 #haurs {
     position: absolute;
     width: 5px;
-    height: 100px;
-    left: 149.5px;
-    top: 132px;
+    height: 90px;
+    left: 149px;
+    top: 150px;
     background-color: crimson;
     animation: hau 72000s infinite steps(72000);
-    transform-origin: 0 16px;
+    transform-origin: 0 0px;
     
 }
 

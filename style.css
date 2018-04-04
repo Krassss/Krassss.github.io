@@ -1,17 +1,28 @@
+html{
+    margin: 40px;
+}
 body{
+    display: flex;
     padding: 0px;
     margin: 0px;
-    background-image: url(github.jpg)
+    background-image: url(calendar%202018.jpg);
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-position: top;
 }
 
 a{
-    display:inline-block;
+    display:flex;
+    padding: 5px;
     margin: 50px;
-    font-size: 20px;
-    color: lightcyan;
+    font-size: 35px;
+    color: #A65900;
     text-decoration: none;
+    border-bottom: 5px solid #5CCCCC;
 }
 
 a:hover{
-    color: white;
+    border-bottom:5px solid #006363;
+    
+    text-shadow:0 5px 5px lightblue;
 }

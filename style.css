@@ -6,6 +6,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-image: url(calendar%202018.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
     background-position:center; 
     background-position: top;

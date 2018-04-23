@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    
+    height: 100%;
+    width: 100%;
+}
+.button{
+    margin: auto;
+    margin-top: 15%;
+    height: 250px;
+    width:250px;
+    border-radius: 125px;
+    font-size: 35px;
+    border: none;
+    background-color: #FF1E00;
+}

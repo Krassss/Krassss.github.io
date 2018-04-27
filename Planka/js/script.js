@@ -8,7 +8,7 @@ var audio = new Audio();
 	audio.src = "audio/bom.mp3"; 
 
 function timer(){
-    
+    $('.button').css('display','none')
 	if(time[step]){
 		sound()
 		document.body.style.background

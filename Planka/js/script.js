@@ -1,8 +1,8 @@
 
 
-var sec = 80; // enter time
+var sec = 10; // enter time
 var sec1 = sec*1000;
-var sec2 = sec2/2;
+var sec2 = sec1/2;
 var time = [10000,sec1,10000,sec2,10000,sec2,10000,sec1,1000];
 var step  = 0;
 var audio = new Audio(); 
